@@ -14,3 +14,13 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function generatePassword()
+{
+  var passwordLength = prompt ( "password length?")
+  var specialCharacters =confirm("do want to use special characters?")
+  var numbers =confirm("do you want to use numbers?")
+  var doYouwanttocontinue =confirm("do you want to continue creating custom password")
+  
+
+}
